@@ -3,7 +3,7 @@ import { Github, Heart } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-white dark:bg-[#050505]">
+    <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-white dark:bg-black">
       <div className="max-w-7xl mx-auto px-6 py-8 md:py-12 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
           <span className="font-bold text-lg text-neutral-900 dark:text-white tracking-tight">
