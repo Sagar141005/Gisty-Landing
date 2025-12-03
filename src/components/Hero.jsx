@@ -8,15 +8,15 @@ export default function Hero() {
 
       <div className="max-w-6xl mx-auto px-6 relative z-10 text-center">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-neutral-900 dark:text-white mb-6 leading-[1.1]">
-          Stop reading fluff. <br />
+          Skip the overwhelm. <br />
           <span className="text-neutral-400 dark:text-neutral-600">
-            Get the gist.
+            See what actually matters.
           </span>
         </h1>
 
         <p className="md:text-lg text-sm text-neutral-600 dark:text-neutral-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          The minimalist Chrome extension that turns chaotic webpages into
-          clear, actionable bullet points. Open source, private, and free.
+          Gisty distills messy webpages into simple, readable bullet points—so
+          you spend less time scrolling and more time understanding.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">

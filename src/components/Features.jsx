@@ -50,9 +50,9 @@ export default function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-20 max-w-2xl mx-auto text-center">
           <p className="text-3xl md:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white leading-tight">
-            Built for speed. <br />
+            Everything you need. <br />
             <span className="text-neutral-400 dark:text-neutral-600">
-              Designed for focus.
+              Nothing you don’t.
             </span>
           </p>
         </div>

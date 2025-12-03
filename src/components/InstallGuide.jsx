@@ -17,12 +17,12 @@ export default function InstallGuide() {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white leading-tight">
-            Installation Protocol
+            Install Gisty in Minutes
           </h2>
-          <p className="text-md text-neutral-600 dark:text-neutral-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Gisty is currently in Beta. Install it locally in 5 simple steps.{" "}
-            <br className="hidden sm:block" />
-            No data tracking. No store fees. Total privacy.
+
+          <p className="text-md text-neutral-600 dark:text-neutral-300 mb-10 max-w-xl mx-auto leading-relaxed">
+            Gisty is currently in Beta. Install it manually in just five quick
+            steps — no tracking, and no data collection.
           </p>
         </div>
 
@@ -30,8 +30,8 @@ export default function InstallGuide() {
           <StepCard
             num="01"
             icon={<Download size={20} />}
-            title="Download the Source"
-            desc="Get the latest compressed version of the extension."
+            title="Download the Extension"
+            desc="Grab the latest packaged version of Gisty."
           >
             <a
               href="/gisty-v1.zip"
@@ -45,8 +45,8 @@ export default function InstallGuide() {
           <StepCard
             num="02"
             icon={<FolderOpen size={20} />}
-            title="Unzip the File"
-            desc="Extract the contents to a folder. You should see a 'manifest.json' file inside."
+            title="Unzip the Folder"
+            desc="Extract the contents anywhere you like. Make sure the folder contains a manifest.json file."
           />
 
           <StepCard
@@ -68,8 +68,8 @@ export default function InstallGuide() {
           <StepCard
             num="05"
             icon={<Box size={20} />}
-            title="Load Unpacked"
-            desc="Click the button in the top-left and select your extracted folder."
+            title="Load the Unpacked Folder"
+            desc="Click the “Load unpacked” button and select your unzipped Gisty folder."
           />
         </div>
 
@@ -78,8 +78,8 @@ export default function InstallGuide() {
             <span className="font-semibold text-neutral-900 dark:text-white">
               Why manual install?
             </span>{" "}
-            allows us to iterate faster and keeps the tool free without Chrome
-            Web Store review delays. The code is open source on GitHub.
+            It lets us ship updates instantly and keep Gisty completely free —
+            no store delays, no tracking, and fully open source on GitHub.
           </p>
         </div>
       </div>
