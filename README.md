@@ -1,6 +1,7 @@
 # ⚡ Gisty — AI Page Summarizer (Landing Page)
 This repository contains the **official landing page** for **Gisty**, a minimalist Chrome extension that converts any webpage into clear, actionable bullet-point summaries — instantly.  
-🔗 **Live Demo:** https://gisty.sagarsaini.com  
+
+🔗 **Live Demo:** https://gisty.sagarsaini.com   
 👉 **Author:** [Sagar Saini](https://sagarsaini.com)  
 
 
@@ -42,6 +43,6 @@ The landing page is built with:
 
 
 ## ⭐ Support the Project
-If you like Gisty, or the landing page helped you install the extension…  
-**Please star the repo! ⭐**
+If you like Gisty, or the landing page helped you install the extension…    
+**Please star the repo! ⭐**  
 It inspires more open-source work. ❤️
