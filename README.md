@@ -1,16 +1,48 @@
-# React + Vite
+# ⚡ Gisty — AI Page Summarizer (Landing Page)
+This repository contains the **official landing page** for **Gisty**, a minimalist Chrome extension that converts any webpage into clear, actionable bullet-point summaries — instantly.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:** https://gisty.sagarsaini.com   
+👉 **Author:** [Sagar Saini](https://sagarsaini.com)  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ About Gisty
+Gisty is a lightweight, privacy-first **AI summarizer** powered by Gemini 2.5 Flash Lite.  
+It instantly transforms long webpages into **concise bullet points,** designed for reading, productivity, and research.  
+The landing page provides:  
+- Feature highlights
+- Manual installation guide
+- Links to downloads & GitHub repos
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌟 Landing Page Features  
 
-## Expanding the ESLint configuration
+### 🎨 Clean, Modern UI  
+Designed for clarity and simplicity — focuses on features, installation, and user onboarding.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Manual Installation Guide  
+Since Gisty is currently in Beta, the landing page includes a step-by-step manual installation flow.  
+The steps include:  
+- **Download the extension ZIP**  
+- **Unzip the folder**  
+- **Open Chrome Extensions manager**  
+- **Enable Developer Mode**  
+- **Load Unpacked folder**  
+All steps are visually supported with icons and action components like CopyBox and download buttons.
+
+### 💡 Why Manual Installation?  
+Manual install lets us ship updates instantly and keep Gisty fully private —
+**no Chrome Web Store tracking, no wait times, and 100% open source.**
+
+
+## 🖥️ Tech Stack
+The landing page is built with:  
+- React
+- Vite
+- Tailwind CSS
+- Lucide Icons
+
+
+## ⭐ Support the Project
+If you like Gisty, or the landing page helped you install the extension…    
+**Please star the repo! ⭐**  
+It inspires more open-source work. ❤️
