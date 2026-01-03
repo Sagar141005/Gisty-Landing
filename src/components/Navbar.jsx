@@ -11,8 +11,7 @@ export default function Navbar() {
   };
 
   const ThemeIcon = () => {
-    if (theme === "light") return <Sun size={18} />;
-    if (theme === "dark") return <Moon size={18} />;
+    return resolvedTheme === "dark" ? <Moon size={18} /> : <Sun size={18} />;
   };
 
   return (
@@ -53,7 +52,7 @@ export default function Navbar() {
             <button
               onClick={toggleTheme}
               className="p-2 text-neutral-600 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-white transition-colors"
-              title={`Theme: ${theme}`}
+              title={`Theme: ${resolvedTheme}`}
             >
               <ThemeIcon />
             </button>
