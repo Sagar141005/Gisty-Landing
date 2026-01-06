@@ -36,7 +36,7 @@ export default function InstallGuide() {
             <a
               href="/gisty-v1.zip"
               download
-              className="inline-flex items-center gap-2 px-4 py-2 mt-3 bg-neutral-900 dark:bg-white text-white dark:text-black text-xs font-bold rounded hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 px-4 py-2 mt-3 bg-neutral-900 dark:bg-white text-white dark:text-black text-xs font-bold rounded-lg hover:opacity-90 transition-opacity"
             >
               <Download size={14} /> Download .zip
             </a>
@@ -99,7 +99,7 @@ function StepCard({ num, icon, title, desc, children }) {
 
       <div className="flex-1">
         <div className="flex items-center gap-3 mb-2">
-          <div className="p-1.5 rounded-md bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 text-neutral-600 dark:text-neutral-300">
+          <div className="p-1.5 rounded-lg bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 text-neutral-600 dark:text-neutral-300">
             {icon}
           </div>
           <h3 className="font-bold text-neutral-900 dark:text-white">
@@ -126,12 +126,12 @@ function CopyBox({ text }) {
 
   return (
     <div className="mt-3 flex items-center gap-2 max-w-xs">
-      <code className="flex-1 px-3 py-2 rounded bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs font-mono text-neutral-600 dark:text-neutral-400 select-all">
+      <code className="flex-1 px-3 py-2 rounded-lg bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs font-mono text-neutral-600 dark:text-neutral-400 select-all">
         {text}
       </code>
       <button
         onClick={handleCopy}
-        className="p-2 rounded bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors"
+        className="p-2 rounded-lg bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors"
         title="Copy to clipboard"
       >
         {copied ? (
